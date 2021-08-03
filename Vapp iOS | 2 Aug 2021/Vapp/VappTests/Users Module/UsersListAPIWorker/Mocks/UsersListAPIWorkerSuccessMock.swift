@@ -10,6 +10,7 @@ import XCTest
 @testable import Vapp
 
 class UsersListAPIWorkerSuccessMock: UsersListAPIWorkerInterface {
+    var totalItems: Int?
     var lastCursor: Int? = 2
     var nextCursor: Int? = 2
     var totalPages: Int? = 12
